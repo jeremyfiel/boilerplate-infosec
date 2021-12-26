@@ -7,11 +7,14 @@
 		"start": "node myApp.js"
 	},
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.17.0",
+		"helmet": "3.21.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.0"
 	},
 	"keywords": [
 		"node",
-		"hyperdev",
 		"express",
 		"freecodecamp"
 	],
