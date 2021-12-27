@@ -9,6 +9,7 @@ app.use(express.static('public'));
 app.disable('strict-transport-security');
 app.use('/_api', api);
 app.get("/", function (request, response) {
+  console.log(`I sent you a file`)
   response.sendFile(__dirname + '/views/index.html');
 });
 let port = process.env.PORT || 3000;
